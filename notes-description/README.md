@@ -7,7 +7,7 @@ I have included 3 images:
 - sidebarsWhite.png - White (good alternative for dark themes)
 
 ### Installation:
-You will need to copy down and change the URL for the images depending on which one you use.
+You will need to copy down and change the URL for the images depending on which one you use. If you use a light theme you will probably want to use "sidebars.png" where as a dark theme you may want to use "sidebarsWhite.png".
 
 
 ***GM Note***
