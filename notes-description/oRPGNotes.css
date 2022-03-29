@@ -1,0 +1,51 @@
+blockquote.oRPGGMDescription {
+   display: block-inline;
+   margin-bottom: 1em;
+   background-color: var(--text-selection);
+   font-family: ScalySans;
+   border-style: solid;
+   border-width: 7px;
+   border-image: url('https://www.gmbinder.com/assets/img/note-wrap.png') 11;
+   border-image-repeat: stretch;
+   border-image-outset: 5px 1px;
+   box-shadow: 0 0 8px var(--background-modifier-cover);
+   color: var(--code-text);
+   float: right;
+   width: 300px;
+}
+blockquote.oRPGGMDescription::before {
+    content: "Description";
+    position: relative;
+    top: -18px;
+    background-color: var(--background-modifier-cover);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 8px var(--background-modifier-cover);
+}
+
+blockquote.oRPGGMNote::before {
+    content: "GM Note";
+    position: relative;
+    top: -20px;
+    background-color: var(--background-modifier-cover);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 8px var(--background-modifier-cover);
+}
+
+blockquote.oRPGGMNote {
+
+    display: block-inline;
+    margin-bottom: 1em;
+    background-color: var(--background-primary-alt);
+    font-family: ScalySans;
+    border-style: solid;
+    border-width: 7px;
+    border-image: url('http://localhost/images/sidebarsDarkTheme.png') 12 stretch;
+    border-image-repeat: stretch;
+    border-image-outset: 4px;
+    box-shadow: 0 0 8px var(--background-modifier-cover);
+    color: var(--code-text);
+    float: right;
+    width: 300px;
+}
