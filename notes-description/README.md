@@ -6,6 +6,9 @@ I have included 3 images:
 - sidebars.png - Black (good for light themes)
 - sidebarsWhite.png - White (good alternative for dark themes)
 
+### Installation:
+You will need to copy down and change the URL for the images depending on which one you use.
+
 
 ***GM Note***
 ```
