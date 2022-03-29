@@ -5,3 +5,8 @@ I have included 3 images:
 - sidebarsDarkTheme.png - one for SlRvb's dark D&D theme
 - sidebars.png - Black (good for light themes)
 - sidebarsWhite.png - White (good alternative for dark themes)
+
+
+***Example:***
+
+![Notes n Descriptions](https://miniworld.com/obsidian/oRPGNotes.jpg)
