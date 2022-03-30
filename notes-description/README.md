@@ -28,8 +28,10 @@ You will need to copy down and change the URL for the images depending on which 
 ```
 > **Mess Hall**
 > Your torch allows you to see remnants of what once must've been a mess hall of sorts, demolished and consumed by time itself. 
-{class=oRPGGMDescription}
+{class=oRPGGMDescription style="width:200px"}
 ```
+*Above example allows you to set the width of the boxes using Attributes for each instance.*
+
 
 ***Example:***
 
