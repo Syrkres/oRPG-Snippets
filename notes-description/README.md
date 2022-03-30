@@ -1,10 +1,13 @@
 # oRPG Notes and Description CSS
 The following files/images are for use with Notes and Description markdown.
 
-I have included 3 images:
+I have included 6 images:
 - sidebarsDarkTheme.png - one for SlRvb's dark D&D theme
 - sidebars.png - Black (good for light themes)
 - sidebarsWhite.png - White (good alternative for dark themes)
+- note-wrap.png - Black (good for light themes)
+- note-wrapDarkTheme.png - one I use for SlRvb's Dark D&D Theme
+- note-wrapWhite.png - White (good alternative for dark themes)
 
 ## Requires 
 - [Obsidian Attributes](https://github.com/valentine195/obsidian-markdown-attributes)
@@ -12,6 +15,9 @@ I have included 3 images:
 ## Installation:
 You will need to copy down and change the URL for the images depending on which one you use. If you use a light theme you will probably want to use "sidebars.png" where as a dark theme you may want to use "sidebarsWhite.png".
 
+**Note:** 
+You can set the width of the boxes using Attributes settings: 
+{class=oRPGGMDescription style="width:200px"} 
 
 ***GM Note***
 ```
