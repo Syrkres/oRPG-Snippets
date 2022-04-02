@@ -1,3 +1,21 @@
+/*
+   Four pairs of styles (each pair blockquote and blockquote::before)
+   two pair for Description  (one top, one side)
+   two pair for GM Note  (one top, one side)
+   Notes:
+   - You can easily change(or add more) by changing the "content:" tag
+   - May have to adjust the top/right depending on FONT sizes
+
+   Images URL:
+   - I host my on local apache server.
+   - I have supplied three of each for different colors
+
+   Contributors: @jethoof
+
+*/
+
+
+/* Description  -------------------------------------------------------*/
 blockquote.oRPGGMDescription {
    display: block-inline;
    margin-bottom: 1em;
@@ -5,7 +23,7 @@ blockquote.oRPGGMDescription {
    font-family: ScalySans;
    border-style: solid;
    border-width: 7px;
-   border-image: url('https://www.gmbinder.com/assets/img/note-wrap.png') 11;
+   border-image: url('http://localhost/images/note-wrapDarkTheme.png') 11;
    border-image-repeat: stretch;
    border-image-outset: 5px 1px;
    box-shadow: 0 0 8px var(--background-modifier-cover);
@@ -14,25 +32,19 @@ blockquote.oRPGGMDescription {
    width: 300px;
 }
 blockquote.oRPGGMDescription::before {
-    content: "Description";
-    position: relative;
+
+   content: "Description";
+    position: 40px;
     top: -18px;
+    right: unset;
     background-color: var(--background-modifier-cover);
     padding-left: 5px;
     padding-right: 5px;
     box-shadow: 0 0 8px var(--background-modifier-cover);
+    transform: unset;
 }
 
-blockquote.oRPGGMNote::before {
-    content: "GM Note";
-    position: relative;
-    top: -20px;
-    background-color: var(--background-modifier-cover);
-    padding-left: 5px;
-    padding-right: 5px;
-    box-shadow: 0 0 8px var(--background-modifier-cover);
-}
-
+/* GM Note -------------------------------------------------------*/
 blockquote.oRPGGMNote {
 
     display: block-inline;
@@ -48,4 +60,73 @@ blockquote.oRPGGMNote {
     color: var(--code-text);
     float: right;
     width: 300px;
+}
+
+blockquote.oRPGGMNote::before {
+    content: "GM Note";
+    position: 40px;
+    top: -18px;
+    right: unset;
+    background-color: var(--background-modifier-cover);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 8px var(--background-modifier-cover);
+    transform: unset;
+}
+/* Description  Side---------------------------------------------------*/
+blockquote.oRPGGMDescriptionSide {
+   display: block-inline;
+   margin-bottom: 1em;
+   background-color: var(--text-selection);
+   font-family: ScalySans;
+   border-style: solid;
+   border-width: 7px;
+   border-image: url('http://localhost/images/note-wrapDarkTheme.png') 11;
+   border-image-repeat: stretch;
+   border-image-outset: 5px 1px;
+   box-shadow: 0 0 8px var(--background-modifier-cover);
+   color: var(--code-text);
+   float: right;
+   width: 300px;
+}
+blockquote.oRPGGMDescriptionSide::before {
+
+   content: "Description";
+    position: 40px;
+    top: 42px;
+    right: -50px;
+    background-color: var(--background-modifier-cover);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 8px var(--background-modifier-cover);
+     transform: rotate(90deg);
+}
+/* GM Note Side -------------------------------------------------------*/
+blockquote.oRPGGMNoteSide {
+
+    display: block-inline;
+    margin-bottom: 1em;
+    background-color: var(--background-primary-alt);
+    font-family: ScalySans;
+    border-style: solid;
+    border-width: 7px;
+    border-image: url('http://localhost/images/sidebarsDarkTheme.png') 12 stretch;
+    border-image-repeat: stretch;
+    border-image-outset: 4px;
+    box-shadow: 0 0 8px var(--background-modifier-cover);
+    color: var(--code-text);
+    float: right;
+    width: 300px;
+}
+
+blockquote.oRPGGMNoteSide::before {
+    content: "GM Note";
+    position: 40px;
+    top: 32px;
+    right: -45px;
+    background-color: var(--background-modifier-cover);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 8px var(--background-modifier-cover);
+     transform: rotate(90deg);
 }
