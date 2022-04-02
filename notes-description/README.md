@@ -1,6 +1,16 @@
 # oRPG Notes and Description CSS
 The following files/images are for use with Notes and Description markdown.
 
+Four pairs of styles (each pair blockquote and blockquote::before).
+Two pair for Description  (one top, one side).
+Two pair for GM Note  (one top, one side).
+   
+   **Notes:**
+   - You can easily change(or add more) by changing the "content:" tag
+   - May have to adjust the top/right depending on FONT sizes
+
+
+
 I have included 6 images:
 - sidebarsDarkTheme.png - one for SlRvb's dark D&D theme
 - sidebars.png - Black (good for light themes)
@@ -42,3 +52,6 @@ You can set the width of the boxes using Attributes settings:
 ***Example:***
 
 ![Notes n Descriptions](https://miniworld.com/obsidian/oRPGNotes.jpg)
+
+
+Contributors: @jethoof
