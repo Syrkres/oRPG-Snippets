@@ -1,0 +1,163 @@
+
+/* Spell CSS ------------------------- */
+
+
+.oRPGPage.oRPGSpell .callout[data-callout="orpg-spell"] {
+    float: right;
+    border: 1px solid var(--accent);
+    background-color: var(--footnote);
+
+}
+
+.oRPGPage.oRPGSpell  .callout[data-callout="orpg-spell"]  .callout-title {
+    display: none;
+ }
+
+
+.oRPGPage.oRPGSpell  .callout[data-callout="orpg-spell"]  .callout-content {
+   margin: 0px;
+   padding: 0px;
+   background-color: var(--statblock-primary-color);
+}
+
+
+
+ .oRPGPage.oRPGSpell  .callout[data-callout="orpg-spell"]  .callout-content  table {
+     border-collapse: collapse;
+     margin-bottom: 0px;
+ }
+
+ .oRPGPage.oRPGSpell  .callout[data-callout="orpg-spell"]  .callout-content  table td {
+    padding: 0px 0px;
+
+}
+
+ .oRPGPage.oRPGSpell  .callout[data-callout="orpg-spell"]  .callout-content  table  td > span > img{
+     border-collapse: collapse;
+     margin-bottom: 0px;
+     max-width: 75px;
+     min-width: 75px;
+     height: 75px;
+     max-height:75px;
+ }
+
+
+.oRPGPage.oRPGSpell.is-live-preview   .callout[data-callout="orpg-spell"]  .callout-content table td,
+.oRPGPage.oRPGSpell.markdown-preview-view   .callout[data-callout="orpg-spell"]  .callout-content table   td,
+.oRPGPage.oRPGSpell.reveal   .callout[data-callout="orpg-spell"]  .callout-content table td {
+    background-color: transparent;
+}
+
+.oRPGPage.oRPGSpell.is-live-preview.callout[data-callout="orpg-spell"]  .callout-content  table tr:nth-child(odd),
+.oRPGPage.oRPGSpell.markdown-preview-view .callout[data-callout="orpg-spell"]  .callout-content  table tr:nth-child(odd),
+.oRPGPage.oRPGSpell.reveal .callout[data-callout="orpg-spell"]  .callout-content  table tr:nth-child(odd),
+.oRPGPage.oRPGSpell.is-live-preview.callout[data-callout="orpg-spell"]  .callout-content  table tr:nth-child(even),
+.oRPGPage.oRPGSpell.markdown-preview-view .callout[data-callout="orpg-spell"]  .callout-content  table tr:nth-child(even),
+.oRPGPage.oRPGSpell.reveal .callout[data-callout="orpg-spell"]  .callout-content  table tr:nth-child(even)
+ {
+    background-color: transparent;
+}
+
+
+.oRPGPage.oRPGSpell .callout[data-callout="orpgabjuration"] {
+    background-image: url("http://localhost/adnd/images/spells/abjuration.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+.oRPGPage.oRPGSpell .callout[data-callout="orpgenchantment"] {
+    background-image: url("http://localhost/adnd/images/spells/enchantment.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+.oRPGPage.oRPGSpell .callout[data-callout="orpgevocation"] {
+    background-image: url("http://localhost/adnd/images/spells/evocation.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+.oRPGPage.oRPGSpell .callout[data-callout="orpgdivination"] {
+    background-image: url("http://localhost/adnd/images/spells/divination.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+.oRPGPage.oRPGSpell .callout[data-callout="orpgconjuration"] {
+    background-image: url("http://localhost/adnd/images/spells/conjuration.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+.oRPGPage.oRPGSpell .callout[data-callout="orpgtransmutation"] {
+    background-image: url("http://localhost/adnd/images/spells/transmutation.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+.oRPGPage.oRPGSpell .callout[data-callout="orpgnecromancy"] {
+    background-image: url("http://localhost/adnd/images/spells/necromancy.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+.oRPGPage.oRPGSpell .callout[data-callout="orpgillusion"]  {
+    background-image: url("http://localhost/adnd/images/spells/abjuration.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    padding-left: 55px;
+    border-left: none;
+}
+
+.oRPGPage.oRPGSpell .callout[data-callout="orpgabjuration"] .callout-title,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgenchantment"] .callout-title,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgevocation"] .callout-title,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgdivination"] .callout-title,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgconjuration"] .callout-title,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgtransmutation"] .callout-title,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgnecromancy"] .callout-title,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgillusion"]  .callout-title  {
+    display: none;
+ }
+
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgabjuration"] .callout-content,
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgenchantment"] .callout-content,
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgevocation"] .callout-content,
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgdivination"] .callout-content,
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgconjuration"] .callout-content,
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgtransmutation"] .callout-content,
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgnecromancy"] .callout-content,
+ .oRPGPage.oRPGSpell .callout[data-callout="orpgillusion"]  .callout-content    {
+     padding-top: 0px;
+     padding-left: 10px;
+}
+
+.oRPGPage.oRPGSpell .callout[data-callout="orpgabjuration"] .callout-content h1,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgenchantment"] .callout-content h1,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgevocation"] .callout-content h1,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgdivination"] .callout-content h1,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgconjuration"] .callout-content h1,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgtransmutation"] .callout-content h1,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgnecromancy"] .callout-content h1,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgillusion"]  .callout-content h1   {
+     margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.oRPGPage.oRPGSpell .callout[data-callout="orpgabjuration"] .callout-content p,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgenchantment"] .callout-content p,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgevocation"] .callout-content p,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgdivination"] .callout-content p,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgconjuration"] .callout-content p,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgtransmutation"] .callout-content p,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgnecromancy"] .callout-content p,
+.oRPGPage.oRPGSpell .callout[data-callout="orpgillusion"]  .callout-content p  {
+     margin-top: 0px;
+}
