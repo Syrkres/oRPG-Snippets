@@ -1,5 +1,5 @@
 # oRPG-Snippets
-Snippets of CSS for Obsidian for RPG games.
+Snippets of CSS for Obsidian for RPG games along with some other source files.
 
 *Home to my CSS snippets for TTRPG in Obsidian MD.*
 
