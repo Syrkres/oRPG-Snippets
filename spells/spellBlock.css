@@ -1,6 +1,21 @@
 
 /* Spell CSS ------------------------- */
+/*
+   The images for the spell name block are hosted on a local apache server.
+   The images can be linked from DNDBeyond.com but are smaller.
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/abjuration.png
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/conjuration.png
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/divination.png
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/enchantment.png
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/evocation.png
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/illusion.png
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/necromancy.png
+   https://www.dndbeyond.com/content/1-0-1920-0/skins/waterdeep/images/spell-schools/35/transmutation.png
 
+   Swap out for ULRs in 78,85,92,99,106,113,127
+
+
+*/
 
 .oRPGPage.oRPGSpell .callout[data-callout="orpg-spell"] {
     float: right;
@@ -109,7 +124,7 @@
     border-left: none;
 }
 .oRPGPage.oRPGSpell .callout[data-callout="orpgillusion"]  {
-    background-image: url("http://localhost/adnd/images/spells/abjuration.png");
+    background-image: url("http://localhost/adnd/images/spells/illusion.png");
     background-repeat: no-repeat;
     background-size: 60px 60px;
     padding-left: 55px;
