@@ -28,3 +28,12 @@ This CSS are for notes and description blockquotes
 
 Contributors: 
   @jethoof
+
+## Spells
+A collection of individual files for all SRD spells with formatting and CSS
+![Spell Format](https://miniworld.com/obsidian/spellFormat.jpg)
+
+## Items
+A collection of individual files for all items (pulled from 5e.tools) and formatted with CSS.
+
+![Item Formatted](https://miniworld.com/obsidian/itemFormat.jpg)
