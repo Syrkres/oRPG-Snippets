@@ -1,0 +1,29 @@
+
+
+/* Item CSS ------------------------- */
+
+
+.oRPGPage .callout[data-callout="orpg-item"] {
+    width: 300px;
+    float: right;
+    border: 1px solid var(--accent);
+}
+
+.oRPGPage  .callout[data-callout="orpg-item"]  .callout-title {
+    display: none;
+ }
+
+
+.oRPGPage  .callout[data-callout="orpg-item"]  .callout-content {
+   margin: 0px;
+   padding: 0px;
+}
+
+
+.oRPGPage  .callout[data-callout="orpg-item"]  .callout-content h1 {
+    font-size: 18px;
+    text-align: center;
+    background-color: var(--accent);
+    color: var(--th-text);
+    margin-top: 0px;
+}
