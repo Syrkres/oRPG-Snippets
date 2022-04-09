@@ -38,9 +38,7 @@ domainType: Type
 > 
 > +3
 > 
-> **Unit Name:**
-> 
-> Somename
+> **Unit Name:** Somename
 > 
 > **Size:**
 > 

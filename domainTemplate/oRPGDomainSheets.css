@@ -271,55 +271,50 @@
    text-align: center;
 }
 .oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(17) {
-   grid-area: 1 / 3 / 2 / 5;
+   grid-area: 1 / 3 / 2 / 9;
    border-bottom: 1px solid var(--accent);
    background-color: var(--accent);
    padding-right: 10px
 }
 .oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(18) {
-   grid-area: 1 / 5 / 2 / 9;
-   border-bottom: 1px solid var(--accent);
-   background-color: var(--accent);
-}
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(19) {
    grid-area: 1 / 9 / 2 / 10;
    text-align: right
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(20) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(19) {
    grid-area: 1 / 10 / 2 / 11;
    text-align: center;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(21) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(20) {
    grid-area: 2 / 3 / 3 / 9;
    border-bottom: 1px solid var(--accent);
    border-right: 1px solid var(--accent);
    text-align: center;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(22) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(21) {
    grid-area: 2 / 9 / 3 / 10;
    border-bottom: 1px solid var(--accent);
    text-align: right;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(23) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(22) {
    grid-area: 2 / 10 / 3 / 11;
    border-bottom: 1px solid var(--accent);
    text-align: center;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(24) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(23) {
    grid-area: 3 / 3 / 4 / 11;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(25) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(24) {
    grid-area: 4 / 3 / 5 / 11;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(26) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(25) {
    grid-area: 5 / 3 / 6 / 11;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(27) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(26) {
    grid-area: 6 / 3 / 7 / 11;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(28) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(27) {
    grid-area: 8 / 3 / 9 / 5;
 }
-.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(29) {
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(28) {
    grid-area: 8 / 5 / 9 / 11;
 }
