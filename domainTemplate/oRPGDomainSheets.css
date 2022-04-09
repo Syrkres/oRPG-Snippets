@@ -1,0 +1,172 @@
+/* CSS for Domain Sheets for Kingdoms and Warfare */
+
+
+.oRPGDomainSheet h1 {
+    text-align: center;
+}
+.oRPGDomainSheet h1::after {
+    text-align: center;
+    background-color: var(--h1) !important;
+}
+
+.oRPGDomainSheet .callout {
+    border-left: none;
+}
+
+.oRPGDomainSheet .callout .callout-title {
+    display: none;
+    border: none;
+}
+
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainheader"]  .callout-content {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: flex-start;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content {
+      border: none;
+      float: left;
+      padding: 0px;
+      border: 2px solid var(--accent);
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table {
+    margin-bottom: 0px;
+   width: 180px;
+}
+
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table thead {
+    display: none;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table td:nth-child(1) {
+    background-color: transparent;
+}
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table td:nth-child(2) {
+    background-color: var(--td);
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content  {
+      border: none;
+      display: inline;
+      text-align: center;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content h1 {
+    margin-top: -40px;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content h1::after {
+   display: none !important;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content table {
+   margin: auto;
+   border:2px solid var(--accent);
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomaindefenses"]  .callout-content {
+      border: none;
+      float: right;
+      padding: 0px;
+      border: 2px solid var(--accent);
+}
+
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomaindefenses"]  .callout-content table {
+    margin-bottom: 0px;
+   width: 180px;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomaindefenses"]  .callout-content table thead {
+    display: none;
+}
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(1){
+   width: 100px;
+    min-width: 100px;
+}
+/* skill Advancement table rows */
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(2),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(4),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(6),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(8),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(10),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(13)
+{
+   background-color: transparent;
+}
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(3),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(5),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(7),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(9),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(11),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(12),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(14),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(15),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(16)
+{
+    background-color: var(--td);
+}
+
+.oRPGDomainSheet table.oRPGSkillsTable thead  th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.oRPGDomainSheet table.oRPGSkillsTable  {
+   font-size: 8px;
+}
+
+
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(1) {
+   width: 100px;
+    min-width: 100px;
+}
+.oRPGDomainSheet table.oRPGDefensesTable thead th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Defense Advancement table rows */
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(2),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(4),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(6),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(8),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(10),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(11),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(15),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(18),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(21)
+{
+   background-color: transparent;
+}
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(3),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(5),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(7),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(9),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(11),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(13),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(14),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(16),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(17),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(19),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(20),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(22),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(23),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(24)
+{
+    background-color: var(--td);
+}
+
+.oRPGDomainSheet table.oRPGDefensesTable  {
+   font-size: 8px;
+}
+
+.oRPGDomainSheet h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
