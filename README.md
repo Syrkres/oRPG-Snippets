@@ -4,7 +4,7 @@ Snippets of CSS for Obsidian for RPG games along with some other source files.
 *Home to my CSS snippets for TTRPG in Obsidian MD.*
 
 - Notes and Description + CSS
-- SRD Spells and CSS
+- SRD Spells and + CSS
 - Items and + CSS
 - Domain and Unit Sheets + CSS
 
