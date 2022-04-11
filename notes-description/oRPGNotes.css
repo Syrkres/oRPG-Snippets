@@ -10,8 +10,6 @@
    - I host my on local apache server.
    - I have supplied three of each for different colors
 
-   Contributors: @jethoof
-
 */
 
 
@@ -19,15 +17,15 @@
 blockquote.oRPGGMDescription {
    display: block-inline;
    margin-bottom: 1em;
-   background-color: var(--text-selection);
+    background-color: rgb(247 218 162);
    font-family: ScalySans;
    border-style: solid;
    border-width: 7px;
-   border-image: url('http://localhost/images/note-wrapDarkTheme.png') 11;
+   border-image: url('http://localhost/images/note-wrapWhite.png') 11;
    border-image-repeat: stretch;
    border-image-outset: 5px 1px;
    box-shadow: 0 0 8px var(--background-modifier-cover);
-   color: var(--code-text);
+   color: #000000;
    float: right;
    width: 300px;
 }
