@@ -1,0 +1,145 @@
+/* Terrain Callout CSS ------------------------- */
+/*
+ * the following is CSS for GRID layout for Terrain Files
+ */
+
+.callout[data-callout="orpg-terrain"] {
+    border: 1px solid var(--accent);
+    border: none;
+    width: min-content;
+}
+
+.callout[data-callout="orpg-terrain"]  .callout-title {
+    display: none;
+ }
+
+
+.callout[data-callout="orpg-terrain"]  .callout-content {
+   margin: 0px;
+   padding: 0px;
+   display: grid;
+   grid-template-columns: 120px 30px repeat(8, 50px) 20px;
+   grid-template-rows: 30px 25px 25px 25px 25px fit-content(50px);
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   border:  1px solid var(--accent);
+}
+
+.callout[data-callout="orpg-terrain"]  .callout-content p {
+   margin: 0px;
+}
+
+
+/* Header info */
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(1) {
+   grid-area: 1 / 1 / 2 / 12;
+   font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+   background-color: var(--accent);
+  color: var(--th-text);
+  margin-top: 0px;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(2) { grid-area: 2 / 1 / 6 / 2; }
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(2) span {
+   margin-left: 10px;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(2) img {
+    width: 120px;
+ }
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(3) {
+   grid-area: 2 / 5 / 3 / 7;
+   align-self: end;
+   text-align: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(4) {
+   grid-area: 2 / 7 / 3 / 9;
+   align-self: end;
+   text-align: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(5) {
+   grid-area: 2 / 9 / 3 / 11;
+   align-self: end;
+   text-align: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(6) {
+   grid-area: 3 / 3 / 4 / 5;
+   align-self: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(7) {
+   grid-area: 3 / 5 / 4 / 7;
+   align-self: center;
+   text-align: center;
+   border-bottom:  1px solid var(--accent);
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(8) {
+   grid-area: 3 / 7 / 4 / 9;
+   align-self: center;
+   text-align: center;
+   border-bottom:  1px solid var(--accent);
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(9) {
+   grid-area: 3 / 9 / 4 / 11;
+   align-self: center;
+   text-align: center;
+   border-bottom:  1px solid var(--accent);
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(10) {
+   grid-area: 4 / 3 / 5 / 5;
+   align-self: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(11) {
+   grid-area: 4 / 5 / 5 / 7;
+   align-self: center;
+   text-align: center;
+   border-bottom:  1px solid var(--accent);
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(12) {
+   grid-area: 4 / 7 / 5 / 9;
+   align-self: center;
+   text-align: center;
+   border-bottom:  1px solid var(--accent);
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(13) {
+   grid-area: 4 / 9 / 5 / 11;
+   align-self: center;
+   text-align: center;
+   border-bottom:  1px solid var(--accent);
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(14) {
+   grid-area: 5 / 3 / 6 / 5;
+   align-self: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(15) {
+   grid-area: 5 / 5 / 6 / 7;
+   align-self: center;
+   text-align: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(16) {
+   grid-area: 5 / 7 / 6 / 9;
+   align-self: center;
+   text-align: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(17) {
+   grid-area: 5 / 9 / 6 / 11;
+   align-self: center;
+   text-align: center;
+}
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(18) {
+   grid-area: 6 / 1 / 7 / 12;
+   padding: 10px 15px 10px 15px;
+}
+
+
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(19) {
+   grid-area: 3 / 5 / 6 / 11;
+   border: 1px solid var(--accent);
+}
+
+
+.callout[data-callout="orpg-terrain"]  .callout-content p:nth-child(20) {
+   grid-area: 3 / 7 / 6 / 9;
+   border: 1px solid var(--accent);
+}

@@ -1,0 +1,39 @@
+/* character sheet CSS for obsidian */
+.oRPGCharacterSheet {
+   background-color: #ffffff;
+}
+
+/* this covers all sub callout titles */
+.oRPGCharacterSheet .callout[data-callout="threecolumngrid"]  .callout-title {
+    display: none;
+    border: none;
+}
+
+.oRPGCharacterSheet  .callout[data-callout="threecolumngrid"] .callout-content  {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px 120px;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+
+.oRPGCharacterSheet  .callout[data-callout="threecolumngrid"]  .callout-content .callout[data-callout="orpgcsheader"] {
+   grid-area: 1 / 1 / 2 / 4;
+}
+.oRPGCharacterSheet  .callout[data-callout="threecolumngrid"]  .callout-content .callout[data-callout="orpgcsc1"] {
+   grid-area: 2 / 1 / 10 / 2;
+}
+.oRPGCharacterSheet  .callout[data-callout="threecolumngrid"]  .callout-content .callout[data-callout="orpgcsc2"]  {
+   grid-area: 2 / 2 / 10 / 3;
+}
+.oRPGCharacterSheet  .callout[data-callout="threecolumngrid"]  .callout-content .callout[data-callout="orpgcsc3"]  {
+   grid-area: 2 / 3 / 10 / 4;
+}
+.callout[data-callout="orpgcsc1stats"]  {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(17, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}

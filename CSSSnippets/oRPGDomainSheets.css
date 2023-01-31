@@ -1,0 +1,320 @@
+/* CSS for Domain Sheets for Kingdoms and Warfare */
+
+
+.oRPGDomainSheet h1 {
+    text-align: center;
+}
+.oRPGDomainSheet h1::after {
+    text-align: center;
+    background-color: var(--h1) !important;
+}
+
+.oRPGDomainSheet .callout {
+    border-left: none;
+}
+
+.oRPGDomainSheet .callout .callout-title {
+    display: none;
+    border: none;
+}
+
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainheader"]  .callout-content {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: flex-start;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content {
+      border: none;
+      float: left;
+      padding: 0px;
+      border: 2px solid var(--accent);
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table {
+    margin-bottom: 0px;
+   width: 180px;
+}
+
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table thead {
+    display: none;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table td:nth-child(1) {
+    background-color: transparent;
+}
+.oRPGDomainSheet  .callout[data-callout="orpgdomainskills"]  .callout-content table td:nth-child(2) {
+    background-color: var(--td);
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content  {
+      border: none;
+      display: inline;
+      text-align: center;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content h1 {
+    margin-top: -20px;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content h1::after {
+   display: none !important;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomainpool"]  .callout-content table {
+   margin: auto;
+   border:2px solid var(--accent);
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomaindefenses"]  .callout-content {
+      border: none;
+      float: right;
+      padding: 0px;
+      border: 2px solid var(--accent);
+}
+
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomaindefenses"]  .callout-content table {
+    margin-bottom: 0px;
+   width: 180px;
+}
+
+.oRPGDomainSheet  .callout[data-callout="orpgdomaindefenses"]  .callout-content table thead {
+    display: none;
+}
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(1){
+   width: 100px;
+    min-width: 100px;
+}
+/* skill Advancement table rows */
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(2),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(4),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(6),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(8),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(10),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(13)
+{
+   background-color: transparent;
+}
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(3),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(5),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(7),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(9),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(11),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(12),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(14),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(15),
+.oRPGDomainSheet table.oRPGSkillsTable td:nth-child(16)
+{
+    background-color: var(--td);
+}
+
+.oRPGDomainSheet table.oRPGSkillsTable thead  th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.oRPGDomainSheet table.oRPGSkillsTable  {
+   font-size: 8px;
+}
+
+
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(1) {
+   width: 100px;
+    min-width: 100px;
+}
+.oRPGDomainSheet table.oRPGDefensesTable thead th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Defense Advancement table rows */
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(2),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(4),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(6),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(8),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(10),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(11),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(15),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(18),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(21)
+{
+   background-color: transparent;
+}
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(3),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(5),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(7),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(9),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(11),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(13),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(14),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(16),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(17),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(19),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(20),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(22),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(23),
+.oRPGDomainSheet table.oRPGDefensesTable td:nth-child(24)
+{
+    background-color: var(--td);
+}
+
+.oRPGDomainSheet table.oRPGDefensesTable  {
+   font-size: 8px;
+}
+
+.oRPGDomainSheet h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* Domain Unit CSS -------------------------------------------------------- */
+/* Domain Unit CSS   */
+
+
+
+.oRPGDomainSheet  .callout[data-callout="oRPGDomainUnitCard"] {
+
+}
+
+
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content  {
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   grid-template-rows: repeat(8, 1fr);
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-rows: 21px;
+   border: 1px solid var(--accent);
+   padding: 0px;
+}
+
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p {
+    margin: 0px;
+    padding-left: 3px;
+}
+
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(1) {
+   grid-area: 1 / 1 / 2 / 2;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(2) {
+   grid-area: 1 / 2 / 2 / 3;
+   text-align: center;
+   border-right: 1px solid var(--accent);
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(3) {
+   grid-area: 2 / 1 / 3 / 2;
+    background-color: var(--td);
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(4) {
+   grid-area: 2 / 2 / 3 / 3;
+   border-right: 1px solid var(--accent);
+    background-color: var(--td);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(5) {
+   grid-area: 3 / 1 / 4 / 2;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(6) {
+   grid-area: 3 / 2 / 4 / 3;
+   border-right: 1px solid var(--accent);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(7) {
+   grid-area: 4 / 1 / 5 / 2;
+    background-color: var(--td);
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(8) {
+   grid-area: 4 / 2 / 5 / 3;
+    background-color: var(--td);
+   border-right: 1px solid var(--accent);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(9) {
+   grid-area: 5 / 1 / 6 / 2;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(10){
+   grid-area: 5 / 2 / 6 / 3;
+   border-right: 1px solid var(--accent);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(11) {
+   grid-area: 6 / 1 / 7 / 2;
+    background-color: var(--td);
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(12) {
+   grid-area: 6 / 2 / 7 / 3;
+    background-color: var(--td);
+   border-right: 1px solid var(--accent);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(13) {
+   grid-area: 7 / 1 / 8 / 2;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(14) {
+   grid-area: 7 / 2 / 8 / 3;
+   border-right: 1px solid var(--accent);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(15) {
+   grid-area: 8 / 1 / 9 / 2;
+    background-color: var(--td);
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(16) {
+   grid-area: 8 / 2 / 9 / 3;
+   border-right: 1px solid var(--accent);
+    background-color: var(--td);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(17) {
+   grid-area: 1 / 3 / 2 / 9;
+   border-bottom: 1px solid var(--accent);
+   background-color: var(--accent);
+   padding-right: 10px
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(18) {
+   grid-area: 1 / 9 / 2 / 10;
+   text-align: right
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(19) {
+   grid-area: 1 / 10 / 2 / 11;
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(20) {
+   grid-area: 2 / 3 / 3 / 9;
+   border-bottom: 1px solid var(--accent);
+   border-right: 1px solid var(--accent);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(21) {
+   grid-area: 2 / 9 / 3 / 10;
+   border-bottom: 1px solid var(--accent);
+   text-align: right;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(22) {
+   grid-area: 2 / 10 / 3 / 11;
+   border-bottom: 1px solid var(--accent);
+   text-align: center;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(23) {
+   grid-area: 3 / 3 / 4 / 11;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(24) {
+   grid-area: 4 / 3 / 5 / 11;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(25) {
+   grid-area: 5 / 3 / 6 / 11;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(26) {
+   grid-area: 6 / 3 / 7 / 11;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(27) {
+   grid-area: 8 / 3 / 9 / 5;
+}
+.oRPGDomainUnit  .callout[data-callout="orpgdomainunitcard"] div.callout-content p:nth-child(28) {
+   grid-area: 8 / 5 / 9 / 11;
+}
